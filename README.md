@@ -52,21 +52,9 @@ spring.datasource.password=postgres
 
 spring.datasource.password=ваш_пароль
 
-### Шаг 5: Настройте токен DaData API
+### Шаг 5: Запустите приложение
 
-Зарегистрируйтесь на https://dadata.ru и получите API-ключ
-
-В файле src/main/resources/application.properties найдите строку:
-
-dadata.api.token=${DADATA_API_TOKEN}
-
-Замените на ваш реальный токен:
-
-dadata.api.token=ваш_реальный_токен
-
-### Шаг 6: Запустите приложение
-
-Способ 1: Через run.bat
+Способ 1: Через run.bat (рекомендуется)
 
 Дважды кликните по файлу run.bat в корне проекта
 
@@ -80,11 +68,11 @@ java -jar target\counterparty-report-0.0.1-SNAPSHOT.jar
 
 mvn spring-boot:run
 
-### Шаг 7: Откройте браузер
+### Шаг 6: Откройте браузер
 
 Перейдите по адресу: http://localhost:8080
 
-### Шаг 8: Зарегистрируйтесь и войдите
+### Шаг 7: Зарегистрируйтесь и войдите
 
 1. Нажмите "Нет аккаунта? Зарегистрироваться"
 2. Введите username и password
@@ -126,13 +114,17 @@ mvn spring-boot:run
 ## Возможные проблемы и решения
 
 Проблема: Connection refused
+
 Решение: PostgreSQL не запущен → запустите службу PostgreSQL
 
 Проблема: Password authentication failed
+
 Решение: Неверный пароль → проверьте пароль в application.properties
 
 Проблема: Database "counterparty_db" does not exist
+
 Решение: База не создана → выполните CREATE DATABASE counterparty_db;
 
 Проблема: Компания не найдена
+
 Решение: Проверьте правильность ИНН/ОГРН
