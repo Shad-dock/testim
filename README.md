@@ -20,57 +20,66 @@
 
 ### Шаг 1: Установите Java
 
-Скачайте JDK 21 или 24: https://adoptium.net/
+- Скачайте JDK 21 или 24: https://adoptium.net/
 
-Установите на компьютер
+- Установите на компьютер
 
 ### Шаг 2: Установите PostgreSQL
 
-Скачайте PostgreSQL: https://www.postgresql.org/download/windows/
+- Скачайте PostgreSQL: https://www.postgresql.org/download/windows/
 
-Установите на компьютер и запомните пароль от пользователя postgres
+- Установите на компьютер и запомните пароль от пользователя postgres
 
 ### Шаг 3: Создайте базу данных
 
-Откройте pgAdmin или командную строку psql
+- Откройте pgAdmin или командную строку psql
 
-Выполните SQL-запрос:
+- Выполните SQL-запрос:
 
+```sql
 CREATE DATABASE counterparty_db;
+```
 
 ### Шаг 4: Настройте подключение к базе данных
 
-Откройте файл src/main/resources/application.properties
+- Откройте файл src/main/resources/application.properties
 
-Найдите строки:
+- Найдите строки:
 
+```yaml
 spring.datasource.url=jdbc:postgresql://localhost:5432/counterparty_db
 spring.datasource.username=postgres
 spring.datasource.password=postgres
+```
 
 Измените пароль на ваш пароль от PostgreSQL:
 
+```yaml
 spring.datasource.password=ваш_пароль
+```
 
 ### Шаг 5: Запустите приложение
 
-Способ 1: Через run.bat (рекомендуется)
+- Способ 1: Через run.bat (рекомендуется)
 
-Дважды кликните по файлу run.bat в корне проекта
+  Дважды кликните по файлу run.bat в корне проекта
 
-Способ 2: Через JAR
+- Способ 2: Через JAR
 
-Откройте командную строку в папке с проектом и выполните:
-
+  Откройте командную строку в папке с проектом и выполните:
+```bash
 java -jar target\counterparty-report-0.0.1-SNAPSHOT.jar
+```
 
-Способ 3: Через Maven
+-Способ 3: Через Maven
 
+```bash
 mvn spring-boot:run
+```
 
 ### Шаг 6: Откройте браузер
 
-Перейдите по адресу: http://localhost:8080
+-Перейдите по адресу: http://localhost:8080
 
 ### Шаг 7: Зарегистрируйтесь и войдите
 
