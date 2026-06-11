@@ -142,7 +142,7 @@ mvn spring-boot:run
 
   ---
 
-  ## Скриншоты программы
+## Скриншоты программы
 
   - Вход и Регистрация пользователя:
     - <img width="405" height="269" alt="image" src="https://github.com/user-attachments/assets/920ac9b9-5964-47f2-8451-c89f2308ee5e" />
