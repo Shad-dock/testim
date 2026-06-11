@@ -145,12 +145,14 @@ mvn spring-boot:run
   ## Скриншоты программы
 
   - Вход и Регистрация пользователя:
-  <img width="405" height="269" alt="image" src="https://github.com/user-attachments/assets/920ac9b9-5964-47f2-8451-c89f2308ee5e" />
-  <img width="430" height="252" alt="image" src="https://github.com/user-attachments/assets/a2404593-300e-4e49-a2b9-2f135ac1522a" />
+    - <img width="405" height="269" alt="image" src="https://github.com/user-attachments/assets/920ac9b9-5964-47f2-8451-c89f2308ee5e" />
+    
+    - <img width="430" height="252" alt="image" src="https://github.com/user-attachments/assets/a2404593-300e-4e49-a2b9-2f135ac1522a" />
 
-  - Проверка контрагента
-    <img width="403" height="269" alt="image" src="https://github.com/user-attachments/assets/1c8c4a3d-4a8b-4fed-a055-d5204800b54b" />
-    <img width="510" height="387" alt="image" src="https://github.com/user-attachments/assets/5c7902ba-304f-45da-955d-172772659bb1" />
+  - Проверка контрагента:
+    - <img width="403" height="269" alt="image" src="https://github.com/user-attachments/assets/1c8c4a3d-4a8b-4fed-a055-d5204800b54b" />
+    
+    - <img width="510" height="387" alt="image" src="https://github.com/user-attachments/assets/5c7902ba-304f-45da-955d-172772659bb1" />
 
 
 
