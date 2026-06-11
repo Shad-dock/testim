@@ -152,7 +152,8 @@ mvn spring-boot:run
   - Проверка контрагента:
     - <img width="403" height="269" alt="image" src="https://github.com/user-attachments/assets/1c8c4a3d-4a8b-4fed-a055-d5204800b54b" />
     
-    - <img width="510" height="387" alt="image" src="https://github.com/user-attachments/assets/5c7902ba-304f-45da-955d-172772659bb1" />
+    - <img width="837" height="729" alt="image" src="https://github.com/user-attachments/assets/0b885d2f-3ef4-412f-9976-81b4239f3d01" />
+
 
 
 
